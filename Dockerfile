@@ -1,4 +1,3 @@
-FROM alpine:3.9
+FROM alpine:3.12
 RUN apk update \
- && apk add lftp=4.8.4-r1
-
+ && apk add lftp=4.9.1-r0
