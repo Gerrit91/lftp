@@ -1,3 +1,3 @@
-FROM alpine:3.12
+FROM alpine:3.13
 RUN apk update \
- && apk add lftp=4.9.1-r0
+ && apk add ca-certificates lftp=4.9.2-r1
